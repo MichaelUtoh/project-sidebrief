@@ -1,7 +1,7 @@
 import React from 'react'
 import TopNavigation from "../2navSection/TopNavigation";
 import { Flex } from '@chakra-ui/layout';
-import WelcomeBox from './hero';
+import WelcomeBox from './landinPage';
 
 
 const HomepageComponent = () => {
