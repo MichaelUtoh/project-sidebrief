@@ -6,6 +6,8 @@ import { FaFacebookSquare, FaiInstagram, FaInstagram, FaInstagramSquare, FaLinke
 import FooterComponent from '../3footerSection/Footer';
 import PartnersComponent from './partnersComponent';
 import InfoComponent from './infoProcess';
+import CardsComponent from './sidebriefCards';
+
 
 const WelcomeBox = () => {
     const [isMobileScreen] = useMediaQuery('(max-width: 900px)')
@@ -25,8 +27,8 @@ const WelcomeBox = () => {
                         bank account, tax registration, business compliance, and more.
                     </Text>
                     <Flex flexWrap="wrap" mt={2} w={{ base:"90%", lg:"90%"}}>
-                        <Button boxShadow="lg" color="white" colorScheme="cyan" m={2} w={{ base:"90%", lg:"50%" }}>Get Started</Button>
-                        <Button border="1px" color="black" m={2} variant="outline" w={{ base:"90%", lg:"40%" }}>Schedule a Meeting</Button>
+                        <Button color="white" borderRadius={0} colorScheme="cyan" m={2} w={{ base:"90%", lg:"50%" }}>Get Started</Button>
+                        {/* <Button border="1px" color="black" m={2} variant="outline" w={{ base:"90%", lg:"40%" }}>Schedule a Meeting</Button> */}
                     </Flex>
                 </Flex>
 
@@ -44,11 +46,8 @@ const WelcomeBox = () => {
             </Flex>
 
             <InfoComponent />
+            <CardsComponent />
             <PartnersComponent />
-            <Flex h={600} px={{ base:"15px", md:"30px", lg:90}}>
-
-            </Flex>
-
             <FooterComponent />
 
         </>

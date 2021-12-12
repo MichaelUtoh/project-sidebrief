@@ -19,7 +19,7 @@ const TopNavigation = () => {
         >
             <Text p={2}><Image src="/sidebrief.png" width={100} h={6} /></Text>
             <Flex alignItems="center" fontSize={14} fontWeight={500} h="100%" justifyContent="space-between" px={4}>
-                <Link href="#"><Text color="gray" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Blog</Text></Link>
+                <Link href="/blog"><Text color="gray" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Blog</Text></Link>
                 <Link href="#"><Text color="gray" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Contact</Text></Link>
                 <Link href="#"><Text color="gray" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Register</Text></Link>
                 <Link href="#"><Text color="gray" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Login</Text></Link>

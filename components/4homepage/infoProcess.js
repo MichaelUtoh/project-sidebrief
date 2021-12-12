@@ -5,7 +5,7 @@ import { Button, Image, Text } from '@chakra-ui/react'
 const InfoComponent = () => {
     return (
         <>
-            <Flex alignItems="center" id="info" h={600} px={{ base:"15px", md:"30px", lg:90}}>
+            <Flex alignItems="center" id="info" h={600} px={{ base:"15px", md:"30px", lg:90}} mb={10}>
 
                 {/* Animation */}
                 <Flex alignItems="center" display={{ base: "none", md:"flex", lg:"flex" }} justifyContent="center" w="50%">
