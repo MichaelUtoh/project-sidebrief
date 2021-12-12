@@ -5,8 +5,8 @@ import { Divider, Flex, Text } from '@chakra-ui/layout'
 const CardsWrapper = () => {
     return (
         <>
-            <Flex flexDirection="column" h={600} alignItems="center" px={{ base:"15px", md:"30px", lg:90}}>
-                <Text fontSize={{ base:22 }} fontWeight={700}>Why businesses love Sidebrief</Text>
+            <Flex flexDirection="column" alignItems="center" px={{ base:"15px", md:"30px", lg:90}}>
+                <Text fontSize={{ base:22 }} fontWeight={700} textAlign={{ baseline:"center", lg:"center"}}>Why businesses love Sidebrief</Text>
                 <Divider bg="cyan.400" h={1} mt={2} w={10} />
 
                 {/* Why Customers love Sidebrief Cards */}
@@ -19,7 +19,6 @@ const CardsWrapper = () => {
                     <Card image_url={"/cardIcons/icon5.png"} title="Assured quality" description="Documents are vetted and prepared by qualified team." />
                     <Card image_url={"/cardIcons/icon6.png"} title="Dedicated service" description="Dedicated client officer for your questions and requests." />
 
-
                 </Flex>
 
             </Flex>
@@ -30,10 +29,21 @@ const CardsWrapper = () => {
 export const Card = ({ image_url, title, description }) => {
     return (
         <>
-            <Flex alignItems="center" bg="white" border="1px" borderColor="gray.100" flexDirection="column" m={4} px={2} py={8} w={250}>
+            <Flex
+                alignItems="center"
+                bg="white"
+                border="1px"
+                borderColor="gray.100"
+                className="animate-card"
+                flexDirection="column"
+                m={{ base:5, md:7 }}
+                px={2}
+                py={{ base:4, md:8 }}
+                w={{ base:"full", md:250}}
+            >
                 <Image src={image_url} w={6} />
-                <Text fontSize={20} fontWeight={700} pt={2} textAlign="center">{title}</Text>
-                <Text color="gray.500" fontSize={16} textAlign="center" pt={3}>{description}</Text>
+                <Text fontSize={{ base:16, md:20 }} fontWeight={700} pt={2} textAlign="center">{title}</Text>
+                <Text color="gray.500" fontSize={{base:14, md:16, lg:16}} textAlign="center" pt={3}>{description}</Text>
             </Flex>
         </>
     )
