@@ -5,8 +5,8 @@ import { Image, Text } from '@chakra-ui/react'
 const PartnersComponent = () => {
     return (
         <>
-            <Flex bg="gray.50" flexDirection="column" px={{ base:"15px", md:"30px", lg:90}} py={2}>
-                <Text textAlign="left" fontSize={22} fontWeight={700}>Trusted by hundreds of entrepreneurs like you.</Text>
+            <Flex bg="gray.50" alignItems={{ base:"center", md:"flex-start" }} flexDirection="column" px={{ base:"15px", md:"30px", lg:90}} py={2}>
+                <Text fontSize={22} fontWeight={700} mt={{ base:10 }}>Trusted by hundreds of entrepreneurs like you.</Text>
                 <Text color="gray" fontSize={16} fontWeight={500}>Join companies from Africa, US, UK and Asia using Sidebrief.</Text>
 
                 {/* Logo Box */}

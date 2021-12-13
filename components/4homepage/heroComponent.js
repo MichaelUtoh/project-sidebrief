@@ -10,7 +10,7 @@ const HeroComponent = () => {
             {/* Welcome text */}
             <Flex alignItems={{ base:"center", md:"flex-start", lg:"flex-start" }} flexDirection="column" justifyContent="center" w={{base:"100%", md:"100%", lg:"60%"}}>
 
-                <Text fontSize={{ base: '22px', md: '35px', lg: '42px' }} fontWeight={700} lineHeight={{ base:1.3, md:1.2 }} m={2} textAlign={{ base:"center", md:"left" }} w="90%">
+                <Text color="gray.800" fontSize={{ base: '22px', md: '35px', lg: '42px' }} fontWeight={700} lineHeight={{ base:1.3, md:1.2 }} m={2} textAlign={{ base:"center", md:"left" }} w="90%">
                     Form and manage your company from anywhere.
                 </Text>
 

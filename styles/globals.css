@@ -31,5 +31,5 @@ a {
 }
 
 .link-animate:hover {
-  color: cyan;
+  color: cyan !important;
 }
