@@ -23,7 +23,7 @@ const PolicyNavigation = () => {
 
     return (
         <>
-            <Flex alignItems={{ base:"center", }} px={{ base:"15px", md:"30px", lg:90}}>
+            <Flex alignItems={{ base:"top", }} px={{ base:"15px", md:"30px", lg:90}}>
                 <Flex alignItems="start" flexDirection="column" fontSize={{ base:14, md:16 }} h={{ base:"100vh" }} justifyContent="center" p={4} w={{ base:"15%"}}>
                     <Text color="gray.600" cursor="pointer" fontWeight={700} mb={3} onClick={() => handleDataPolicy()}>Data Policy</Text>
                     <Text color="gray.600" cursor="pointer" fontWeight={700} mb={3} onClick={() => handlePrivacyPolicy()}>Privacy Policy</Text>
