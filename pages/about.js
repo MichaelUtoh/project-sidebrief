@@ -5,7 +5,8 @@ import { Flex, Text } from '@chakra-ui/layout'
 const About = () => {
     return (
         <>
-            <Flex alignItems="center" justifyContent="center" h="100vh">
+            <Header title="About" />
+            <Flex alignItems="center" justifyContent="center" minH="100vh">
                 <Text fontSize={30} fontWeight={700}>Something Hooge Is Coming Soon</Text>
             </Flex>
         </>

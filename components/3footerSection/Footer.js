@@ -12,7 +12,11 @@ const FooterComponent = () => {
                 
                 {/* Box 1 */}
                 <Flex flexDirection="column" justifyContent="space-between" mx={4} p={2} w={{ base:"100%", md:"inherit" }}>
-                    <Image src="/sidebrief.png" w="100px" />
+                    <Box>
+                        <Image src="/sidebrief.png" w="100px" />
+                        <Text color="gray.400" fontSize={{ base:10, md:12 }} mt={{ base:3 }}>Build without borders.</Text>
+                    </Box>
+
                     <Box my={{ base:30, md:5 }}>
                         <Flex color="gray.400" justifyContent="space-between" py={1} w={120}>
                             <FaTwitterSquare size={20} />

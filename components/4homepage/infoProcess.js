@@ -9,7 +9,7 @@ const InfoComponent = () => {
 
                 {/* Animation */}
                 <Flex alignItems="center" display={{ base: "none", md:"flex", lg:"flex" }} justifyContent="center" w="50%">
-                    <Image src="/63820.gif" w="400px" />
+                    <Image src="/77389.gif" w="400px" />
                 </Flex>
 
                 {/* Welcome text */}
