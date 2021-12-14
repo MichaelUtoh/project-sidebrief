@@ -175,7 +175,6 @@ const PrivacyPolicy = () => {
 }
 
 
-
 export const AccordionBox = ({ title, altText, textbox1, textbox2, textbox3, textbox4, textbox5, textbox6, textbox7 }) => {
     return (
         <>
