@@ -25,10 +25,10 @@ const TopNavigation = () => {
         >
             <Text cursor="pointer" p={2}> <Link href="/" passHref={true}><Image src="/sidebrief.png" width={100} h={6} alt="sidebrief" /></Link> </Text>
             <Flex alignItems="center" display={{ base:"none", md:"none", lg:"flex"}} fontSize={14} fontWeight={500} h="100%" justifyContent="space-between" px={4}>
-                <Link href="/blog"><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Blog</Text></Link>
-                <Link href="#"><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Contact</Text></Link>
-                <Link href="#"><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Register</Text></Link>
-                <Link href="#"><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Login</Text></Link>
+                <Link href="/blog" passHref={true}><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Blog</Text></Link>
+                <Link href="#" passHref={true}><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Contact</Text></Link>
+                <Link href="#" passHref={true}><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Register</Text></Link>
+                <Link href="#" passHref={true}><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Login</Text></Link>
             </Flex>
 
             <Flex alignItems="center" display={{ base:"flex", md:"flex", lg:"none"}} fontWeight={500} h="100%" justifyContent="space-between" px={4}>

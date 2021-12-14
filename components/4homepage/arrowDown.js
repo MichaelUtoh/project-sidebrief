@@ -8,7 +8,7 @@ const ArrowComponent = () => {
         <>
             {/* Arrow  down */}
             <Flex justifyContent="center" my={4}>
-                <Link href="#info">
+                <Link href="#info" passHref={true}>
                     <Image cursor="pointer" src="63278-down-arrow.gif" h={6} />
                 </Link>
             </Flex>

@@ -204,23 +204,23 @@ const TermsOfService = () => {
                             textbox6="Sidebrief may exercise the rights to your User Content granted under these terms of service without liability 
                                     for payment of any guild fees, residuals, payments, fees, or royalties payable under any collective bargaining 
                                     agreement or otherwise."
-                            textbox6="To the best of your knowledge, all your User Content and other information that you provide to us is truthful and accurate."
-                            textbox7="Sidebrief takes no responsibility and assumes no liability for any User Content that you or any other user or third-party posts or sends over the Services."
-                            textbox8="You shall be solely responsible for your User Content and the consequences of posting or publishing it, and 
+                            textbox7="To the best of your knowledge, all your User Content and other information that you provide to us is truthful and accurate."
+                            textbox8="Sidebrief takes no responsibility and assumes no liability for any User Content that you or any other user or third-party posts or sends over the Services."
+                            textbox9="You shall be solely responsible for your User Content and the consequences of posting or publishing it, and 
                                     you agree that we are only acting as a passive conduit for your online distribution and publication of your User Content."
-                            textbox9="You understand and agree that you may be exposed to User Content that is inaccurate, objectionable, 
+                            textbox10="You understand and agree that you may be exposed to User Content that is inaccurate, objectionable, 
                                     inappropriate for children, or otherwise unsuited to your purpose, and you agree that Sidebrief shall 
                                     not be liable for any damages you may incur as a result of User Content."
-                            textbox10="By posting any User Content on the Services, you expressly grant, and you represent and warrant that you 
+                            textbox11="By posting any User Content on the Services, you expressly grant, and you represent and warrant that you 
                                     have a right to grant, to Sidebrief a royalty-free, sublicensable, transferable, perpetual, irrevocable, 
                                     non-exclusive, worldwide license to use, reproduce, modify, publish, list information regarding, edit, translate, 
                                     distribute, syndicate, publicly perform, publicly display, and make derivative works of all such User Content 
                                     and your name, voice, and/or likeness as contained in your User Content, in whole or in part, and in any form, 
                                     media or technology, whether now known or hereafter developed, for use in connection with the Services."
-                            textbox11="You also hereby grant each user of the Services a non-exclusive license to access your User Content through 
+                            textbox12="You also hereby grant each user of the Services a non-exclusive license to access your User Content through 
                                     the Services, and to use, reproduce, distribute, display and perform such User Content as permitted through the 
                                     functionality of the Services and under this terms of service."
-                            textbox12="The above licenses granted by you in your User Content terminate within a commercially reasonable time after 
+                            textbox13="The above licenses granted by you in your User Content terminate within a commercially reasonable time after 
                                     you remove or delete your User Content from the Services. We may retain and use your User Content as necessary 
                                     to comply with our legal obligations, resolve disputes, and enforce our agreements. Consistent with these 
                                     requirements, we will try to delete your User Content quickly upon request. Please note, however, that there 
@@ -446,6 +446,8 @@ export const AccordionBox = ({ ...props }) => {
                     <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox9 ? props.textbox9 : ""} </Text>
                     <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox10 ? props.textbox10 : ""} </Text>
                     <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox11 ? props.textbox11 : ""} </Text>
+                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox12 ? props.textbox12 : ""} </Text>
+                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox13 ? props.textbox13 : ""} </Text>
                 </AccordionPanel>
             </AccordionItem>
         </>

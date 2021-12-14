@@ -63,7 +63,6 @@ const PrivacyPolicy = () => {
                             textbox4={<ListBox text="To administer a contest, promotion, survey or other site feature." />}
                             textbox5={<ListBox text="To quickly process your transactions." />}
                             textbox6={<ListBox text="To send periodic emails regarding your order or other products and services." />}
-                            textbox6={<ListBox text="To send periodic emails regarding your order or other products and services." />}
                             textbox7={<ListBox text="To analyse traffic on our platform" />}
                         />
 
