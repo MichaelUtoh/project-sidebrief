@@ -23,7 +23,7 @@ const TopNavigation = () => {
             w="100%"
             zIndex={10000}
         >
-            <Text cursor="pointer" p={2}> <Link href="/"><Image src="/sidebrief.png" width={100} h={6} /></Link> </Text>
+            <Text cursor="pointer" p={2}> <Link href="/" passHref={true}><Image src="/sidebrief.png" width={100} h={6} alt="sidebrief" /></Link> </Text>
             <Flex alignItems="center" display={{ base:"none", md:"none", lg:"flex"}} fontSize={14} fontWeight={500} h="100%" justifyContent="space-between" px={4}>
                 <Link href="/blog"><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Blog</Text></Link>
                 <Link href="#"><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Contact</Text></Link>
