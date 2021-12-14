@@ -39,10 +39,10 @@ const FooterComponent = () => {
                 <Flex flexDirection="column" justifyContent="flex-start" mx={3} p={2}>
                     <Text color="cyan.600" fontSize={{ base:14, md:16, lg:18 }} fontWeight={700} mb={2}>Policies</Text>
                     <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="/policies">Data Policy</Link></Text>
-                    <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="/policies">Privacy Policy</Link></Text>
-                    <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="/policies">Payment Policy</Link></Text>
-                    <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="/policies">Disclaimer</Link></Text>
-                    <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="/policies">Terms of Service</Link></Text>
+                    <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="#">Privacy Policy</Link></Text>
+                    <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="#">Payment Policy</Link></Text>
+                    <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="#">Disclaimer</Link></Text>
+                    <Text color="gray.400" cursor="pointer" fontSize={{ base:12, md:12, lg:14 }} fontWeight={500} mb={2}><Link href="#">Terms of Service</Link></Text>
                 </Flex>
 
                 {/* Box 2 */}
