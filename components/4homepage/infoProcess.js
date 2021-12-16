@@ -26,7 +26,7 @@ const InfoComponent = () => {
 
 export const TextComponent = ({ index, message }) => {
     return (
-        <Flex alignItems="center" borderBottom="3px" borderColor="cyan.500" borderRadius="sm" m={4} p={4}>
+        <Flex alignItems="center" borderBottom="3px" borderColor="cyan.500" borderRadius="sm" m={4}>
             <Box bg="cyan.50" color="cyan.500" borderRadius="50%" fontWeight={700} p={2} px={4}> {index} </Box>
             <Text color="gray" fontSize={{ base:14, md:16 }} fontWeight={500} m={2}> {message} </Text>
         </Flex>

@@ -5,7 +5,7 @@ import { Button, Image } from '@chakra-ui/react'
 const HeroComponent = () => {
     return (
         <>
-            <Flex bgAttachment="fixed" bgImage="url('/ziit.jpg')" flexDirection={{ base:"column-reverse", md:"row" }} h={700} alignItems={{ base:"center", }} px={{ base:"15px", md:"30px", lg:90}}>
+            <Flex bgImage="url('/white.jpg')" bgPosition="center" flexDirection={{ base:"column-reverse", md:"row" }} h={700} alignItems={{ base:"center", }} px={{ base:"15px", md:"30px", lg:90}}>
 
             {/* Welcome text */}
             <Flex alignItems={{ base:"center", md:"flex-start", lg:"flex-start" }} flexDirection="column" justifyContent="center" w={{base:"100%", md:"100%", lg:"60%"}}>
@@ -21,7 +21,7 @@ const HeroComponent = () => {
                 </Text>
 
                 <Flex flexWrap="wrap" mt={2} w={{ base:"90%", lg:"90%"}}>
-                    <Button boxShadow="lg" color="white" colorScheme="red" m={2} w={{ base:"100%", lg:"70%" }}>Get Started</Button>
+                    <Button boxShadow="lg" color="white" colorScheme="cyan" m={2} w={{ base:"100%", lg:"70%" }}>Get Started</Button>
                 </Flex>
             </Flex>
 

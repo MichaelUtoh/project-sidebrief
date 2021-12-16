@@ -39,7 +39,7 @@ export const Card = ({ image_url, title, description }) => {
                 m={{ base:5, md:7 }}
                 px={2}
                 py={{ base:4, md:8 }}
-                w={{ base:"full", md:250}}
+                w={{ base:"full", md:250, xl:400 }}
             >
                 <Image src={image_url} w={6} />
                 <Text fontSize={{ base:16, md:20 }} fontWeight={700} pt={2} textAlign="center">{title}</Text>
