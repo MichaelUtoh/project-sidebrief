@@ -1,5 +1,6 @@
 import React from 'react'
 import { Flex, Text } from '@chakra-ui/layout'
+import Header from '../components/1headSection/Header'
 
 
 const About = () => {
