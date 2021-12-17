@@ -2,12 +2,15 @@ import React, { useState } from 'react'
 import { Flex, Text } from '@chakra-ui/layout'
 import DataPolicy from '../../components/7policies/dataPolicy'
 import Link from 'next/link'
+import TopNavigation from '../../components/2navSection/TopNavigation'
+import FooterComponent from '../../components/3footerSection/Footer'
 
 
 const DataPolicyPage = () => {
 
     return (
         <>
+            <TopNavigation />
             <Flex alignItems={{ base:"top", }} px={{ base:"15px", md:"30px", lg:90}}>
                 <Flex
                     alignItems="start"
@@ -31,7 +34,7 @@ const DataPolicyPage = () => {
                     <DataPolicy />
                 </Flex>
             </Flex>
-
+            <FooterComponent />
         </>
     )
 }
