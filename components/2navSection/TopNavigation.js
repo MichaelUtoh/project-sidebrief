@@ -32,7 +32,7 @@ const TopNavigation = () => {
             </Flex>
 
             <Flex alignItems="center" display={{ base:"flex", md:"flex", lg:"none"}} fontWeight={500} h="100%" justifyContent="space-between" px={4}>
-                <Button cursor="pointer" onClick={onOpen} ref={btnRef} variant="ghost"> <FiMenu fontSize={{ base:14 }} /> </Button>
+                <Button color="white" cursor="pointer" onClick={onOpen} ref={btnRef} variant="ghost"> <FiMenu fontSize={{ base:14 }} /> </Button>
             </Flex>
 
             {/* Hamburger Menu MobileView */}
