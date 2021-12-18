@@ -13,7 +13,7 @@ const TopNavigation = () => {
     return (
         <Flex
             alignItems="center"
-            bg="gray.800" 
+            bg="black" 
             boxShadow="sm" 
             fontFamily="primary.heading" 
             h={14} 
@@ -37,7 +37,7 @@ const TopNavigation = () => {
 
             {/* Hamburger Menu MobileView */}
             <Drawer
-                colorScheme="black"
+                colorScheme="'black'"
                 isOpen={isOpen}
                 placement='right'
                 onClose={onClose}
@@ -52,10 +52,10 @@ const TopNavigation = () => {
                 <DrawerBody>
                     <Text textAlign="center" color="cyan.400" fontSize={{ base:16, md:18, lg:20 }} fontWeight={700}>Menu</Text>
                     <Flex alignItems="center" flexDirection="column">
-                        <Link href="/"><a className="link-animate">Home</a></Link>
-                        <Link href="/blog"><a className="link-animate">Blog</a></Link>
-                        <Link href=""><a className="link-animate">Contact</a></Link>
-                        <Link href=""><a className="link-animate">Login</a></Link>
+                        <Flex className="link-animate" p={2}> <Link href="/">Home</Link> </Flex>
+                        <Flex p={2}> <Link href="/blogs">Blog</Link> </Flex>
+                        <Flex p={2}> <Link href="#">Contact</Link> </Flex>
+                        <Flex p={2}> <Link href="#">Login</Link> </Flex>
                     </Flex>
                 </DrawerBody>
 

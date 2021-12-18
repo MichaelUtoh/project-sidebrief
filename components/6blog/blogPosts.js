@@ -14,9 +14,29 @@ const BlogPosts = () => {
                 </Flex>
                 
                 <Flex flexWrap="wrap">
-                    <CardStyle2 title="Doing Business In Nigeria" />
-                    <CardStyle2 title="Doing Business In Nigeria" />
-                    <CardStyle2 title="Doing Business In Nigeria" />
+                    <CardStyle2
+                        image_url="/63820.gif"
+                        date="25-12-2021"
+                        title="Doing Business In Nigeria"
+                        snippet="Although the Nigerian market is an enticing one and several companies make millions in profit annually, 
+                                there is a lot that can be done as regards the ease of doing business in Nigeria."
+                    />
+
+                    <CardStyle2
+                        image_url=""
+                        date="25-12-2021"
+                        title="Registering A Company in Nigeria ; A practical Step by Step guide"
+                        snippet="The Corporate Affairs Commission (CAC) in a bid to ease doing business in Nigeria has made the process 
+                                of registering a company in Nigeria quite seamless."
+                    />
+
+                    <CardStyle2
+                        image_url="/63820.gif"
+                        date="25-12-2021"
+                        title="How do i register my Business Name in Nigeria ?"
+                        snippet="When starting a business, a lot of entrepreneurs are usually confused as to whether to register their 
+                                business with the Corporate Affairs Commission as a Business Name or a Company."
+                    />
                 </Flex>
                 
             </Flex>
