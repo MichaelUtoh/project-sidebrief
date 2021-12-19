@@ -9,7 +9,7 @@ const SupportComponent = () => {
             <Box bg="#f8f8f8" borderRadius={10} minH={300} my={10} p={5} w="100%">
                 <Flex flexDirection={{ base:"column", md:"row" }} justifyContent="space-between">
                     <Flex flexDirection="column" m={4}>
-                        <Text fontSize={{ base:14, md:24, lg:30 }} fontWeight={700}>We're here to help.</Text>
+                        <Text fontSize={{ base:14, md:24, lg:30 }} fontWeight={700}>We&lsquo;re here to help.</Text>
                     </Flex>
                     <Image src="/85552.gif" h={250} w="250px" />
 
