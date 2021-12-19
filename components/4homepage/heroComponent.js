@@ -5,12 +5,12 @@ import { Button, Image } from '@chakra-ui/react'
 const HeroComponent = () => {
     return (
         <>
-            <Flex flexDirection={{ base:"column-reverse", md:"row" }} h={{ base:600 }} alignItems={{ base:"center", }} px={{ base:"15px", md:"30px", lg:90}}>
+            <Flex flexDirection={{ base:"column-reverse", md:"row" }} h={{ base:600 }} alignItems={{ base:"center" }} px={{ base:"15px", md:"30px", lg:90}}>
 
             {/* Welcome text */}
-            <Flex alignItems={{ base:"flex-start", lg:"flex-start" }} flexDirection="column" justifyContent="center" w={{base:"100%", md:"80%", lg:"60%"}}>
+            <Flex alignItems={{ base:"flex-start", lg:"flex-start" }} flexDirection="column" justifyContent="center" mt={{ base:0, md:50 }} pl={{ base:0, md:50 }} w={{base:"100%", md:"80%", lg:"60%"}}>
 
-                <Text color="black" fontSize={{ base: '22px', md: '35px', lg: '42px' }} fontWeight={700} lineHeight={{ base:1.3, md:1.2 }} m={2} w="90%">
+                <Text color="black" fontSize={{ base: '22px', md: '28px', lg: '40px' }} fontWeight={700} lineHeight={{ base:1.3, md:1.2 }} m={2} w="90%">
                     Form and manage your company from anywhere.
                 </Text>
 
@@ -21,7 +21,7 @@ const HeroComponent = () => {
                 </Text>
 
                 {/* <Flex flexWrap="wrap" mt={2} w={{ base:"60%" }}> */}
-                    <Button boxShadow="sm" color="white" colorScheme="cyan" m={2} w={{ base:"80%", md:"40%", lg:"70%" }}>Get Started</Button>
+                    <Button boxShadow="sm" color="white" colorScheme="cyan" m={2} w={{ base:"80%", md:"50%", lg:"70%" }}>Get Started</Button>
                 {/* </Flex> */}
             </Flex>
 

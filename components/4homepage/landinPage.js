@@ -17,9 +17,9 @@ const WelcomeBox = () => {
         <>
             <HeroComponent />
             <ArrowComponent />
+            <PartnersComponent />
             <InfoComponent />
             <CardsComponent />
-            <PartnersComponent />
             <SupportComponent />
         </>
     )
