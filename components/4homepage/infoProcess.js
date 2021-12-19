@@ -5,7 +5,7 @@ import { Button, Image, Text } from '@chakra-ui/react'
 const InfoComponent = () => {
     return (
         <>
-            <Flex alignItems="center" id="info" h={400} px={{ base:"15px", md:"30px", lg:90}} mb={10} mx="auto">
+            <Flex alignItems="center" h={400} px={{ base:"15px", md:"30px", lg:90}} mb={10} mx="auto">
 
 
                 {/* Animation */}
@@ -15,7 +15,7 @@ const InfoComponent = () => {
 
                 {/* Welcome text */}
                 <Flex flexDirection="column" alignItems="start">
-                    <Text textAlign={{ base:"center" }} fontSize={{ base:"16px", lg:"18px" }} fontWeight={700}>The easiest way to start doing business in any market.</Text>
+                    <Text textAlign={{ base:"center" }} fontFamily="comfortaa" fontSize={{ base:"16px", lg:"18px" }} fontWeight={700}>The easiest way to start doing business in any market.</Text>
                     <TextComponent index="1" message="Sign-up or login to your Sidebrief dashboard." />
                     <TextComponent index="2" message="Provide formation info and documents." />
                     <TextComponent index="3" message="Pay and wait for formation of company." />
