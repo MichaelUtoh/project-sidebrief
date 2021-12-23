@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 const HeroComponent = () => {
     return (
         <>
-            <Flex flexDirection={{ base:"column", md:"row" }} h={{ base:650 }} alignItems={{ base:"center" }} px={{ base:"15px", md:"30px", lg:90}}>
+            <Flex flexDirection={{ base:"column-reverse", md:"row" }} h={{ base:650 }} alignItems={{ base:"center" }} px={{ base:"15px", md:"30px", lg:90}}>
 
             {/* Welcome text */}
             <Flex
@@ -19,7 +19,7 @@ const HeroComponent = () => {
                 justifyContent="center"
                 my="auto"
                 px={{ base:"15px" }}
-                py={10}
+                py={{ base:10 }}
                 w={{ base:"100%", md:"80%", lg:"60%" }}
             >
                 <Text color="#5a5a5a" fontFamily="cutive" fontSize={{ base: '22px', md: '28px', lg: '40px' }} fontWeight={700} lineHeight={{ base:1.3, md:1.2 }} m={0} w="90%">
@@ -44,15 +44,11 @@ const HeroComponent = () => {
                 >
                     <Link href="/"><button className="btn-gradient btn-hero">Get Started</button></Link>
                 </motion.div>
-
-                {/* <Flex alignItems="center" flexWrap="wrap" fontFamily="poppins" w={{ base:"100%", md:"60%", lg:"80%" }}> */}
-                    {/* <Button borderRadius={1} boxShadow="sm" fontFamily="cutive" className="btn-gradient" color="gray.700" mt={2} w={{ base:"60%", md:"50%", lg:"70%" }}>Get Started</Button> */}
-                {/* </Flex> */}
             </Flex>
 
             {/* Animation */}
-            <Flex alignItems="center" justifyContent="center" w={{ base:"80%" }}>
-                <Image src="/82840-vps-servers.gif" w={{ base:"100%", md:"70%"}} />
+            <Flex alignItems="center" justifyContent="center" mt={{ base:"100px", md:0 }} w={{ base:"80%" }}>
+                <Image src="/82840-vps-servers.gif" w={{ base:"80%", md:"70%"}} />
             </Flex>
             </Flex>
         </>
