@@ -12,9 +12,8 @@ const WelcomeBox = () => {
     return (
         <>
             <HeroComponent />
-            <ArrowComponent />
+            {/* <StepGuide /> */}
             <PartnersComponent />
-            <StepGuide />
             <InfoComponent />
             <CardsComponent />
             <SupportComponent />

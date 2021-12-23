@@ -5,8 +5,8 @@ import { Button, Image, Text } from '@chakra-ui/react'
 const StepGuide = () => {
     return (
         <>
-            <Flex id="info" alignItems="center" flexDirection="column" justifyContent="space-between" my={{ base:5 }} px={{ base:"15px", md:"30px", lg:90}}>
-                <Text fontSize={{ base:16, md:18, lg:26 }} fontWeight={700} mt={5}>Formation Simplified</Text>
+            <Flex id="info" alignItems="center" bg="#f8f8f8" flexDirection="column" justifyContent="space-between" my={{ base:5 }} px={{ base:"15px", md:"30px", lg:90}} py={{ base:5 }}>
+                <Text color="white" fontSize={{ base:16, md:18, lg:26 }} fontWeight={700} mt={5}>Formation Simplified</Text>
                 <Text color="gray" fontFamily="comfortaa" fontSize={{ base:14, md:16, lg:18 }} fontWeight={500} mb={10}>Form company and get started in new markets.</Text>
 
                 {/* Section 1 */}
@@ -14,7 +14,7 @@ const StepGuide = () => {
                     <Flex bg="#f8f8f8" borderRadius={10} flexDirection="column" justifyContent="center" h={{ base:200, md:300 }} mx={{ base:2, md:4 }} p={{ base:6 }} w={{ base:"100%", md:400 }}>
                         <Text fontFamily="comfortaa" fontSize={{ base:20, md:24, lg:30 }} fontWeight={700}>Formation.</Text>
                         <Text color="gray" fontSize={{ base:16, md:20 }}>Form company</Text>
-                        <Text color="gray" fontSize={{ base:14, md:16 }} fontWeight={600} mt={4}>
+                        <Text color="gray.600" fontSize={{ base:14, md:16 }} fontWeight={600} mt={4}>
                             Register a new profit or non-profit entity seamlessly, with support for all types of business vehicles.
                         </Text>
                     </Flex>
@@ -33,7 +33,7 @@ const StepGuide = () => {
                     <Flex bg="#f8f8f8" borderRadius={10} flexDirection="column" justifyContent="center" h={{ base:200, md:300 }} mx={{ base:2, md:4 }} p={{ base:6 }} w={{ base:"100%", md:400 }}>
                         <Text fontFamily="comfortaa" fontSize={{ base:20, md:24, lg:30 }} fontWeight={700}>Launch.</Text>
                         <Text color="gray" fontSize={{ base:16, md:20 }}>Access local support</Text>
-                        <Text color="gray" fontSize={{ base:14, md:16 }} fontWeight={600} mt={4}>
+                        <Text color="gray.600" fontSize={{ base:14, md:16 }} fontWeight={600} mt={4}>
                             Get started with tax registration, bank account set-up, IP protection and local support on-demand.
                         </Text>
                     </Flex>
@@ -45,7 +45,7 @@ const StepGuide = () => {
                     <Flex bg="#f8f8f8" borderRadius={10} flexDirection="column" justifyContent="center" h={{ base:200, md:300 }} mx={{ base:2, md:4 }} p={{ base:6 }} w={{ base:"100%", md:400 }}>
                         <Text fontFamily="comfortaa" fontSize={{ base:20, md:24, lg:30 }} fontWeight={700}>Compliance.</Text>
                         <Text color="gray" fontSize={{ base:16, md:20 }}>Get business licenses</Text>
-                        <Text color="gray" fontSize={{ base:14, md:16 }} fontWeight={600} mt={4}>
+                        <Text color="gray.600" fontSize={{ base:14, md:16 }} fontWeight={600} mt={4}>
                             Obtain business licenses and approvals required start business locally in any market.
                         </Text>
                     </Flex>

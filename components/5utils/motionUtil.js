@@ -1,29 +1,27 @@
-import { Box, forwardRef } from '@chakra-ui/react'
-import { motion, isValidMotionProp } from 'framer-motion'
+import { Flex } from '@chakra-ui/layout'
+import { Button } from '@chakra-ui/react'
+import { motion } from 'framer-motion'
 
-// 1. Create a custom motion component from Box
-const MotionBox = motion.custom(
-  forwardRef((props, ref) => {
-    const chakraProps = Object.fromEntries(
-      // do not pass framer props to DOM element
-      Object.entries(props).filter(([key]) => !isValidMotionProp(key)),
-    )
-    return <Box ref={ref} {...chakraProps} />
-  }),
-)
+const MotionBox = motion(Flex)
+const MotionBtn = motion(Button)
 
-// 2. You'll get access to `motion` and `chakra` props in `MotionBox`
-function Example() {
+export function FadeInBox({ text }) {
   return (
     <MotionBox
-      boxSize='40px'
-      bg='red.300'
-      drag='x'
-      dragConstraints={{ left: -100, right: 100 }}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.9 }}
-    />
+      height='inherit'
+      bg='white'
+      initial='hidden'
+      animate='visible'
+      transition={{ delay: .5 }}
+      variants={{
+        hidden: { opacity: 0 },
+        visible: { 
+          opacity: 1,
+          delay: 1,
+        }
+      }}
+    >
+    {text}
+    </MotionBox>
   )
 }
-
-export default Example

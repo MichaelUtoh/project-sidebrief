@@ -32,7 +32,7 @@ export const Card = ({ image_url, title, description }) => {
             <Flex
                 alignItems="center"
                 bg="white"
-                // border="1px"
+                border={{ base:"1px", md:"none" }}
                 borderColor="gray.100"
                 className="animate-card"
                 flexDirection="column"

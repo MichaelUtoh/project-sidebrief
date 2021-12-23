@@ -13,10 +13,9 @@ const TopNavigation = () => {
     return (
         <Flex
             alignItems="center"
-            bg="black" 
-            boxShadow="sm" 
-            fontFamily="primary.heading" 
-            h={14} 
+            bg="white"
+            boxShadow="md" 
+            h={16} 
             justifyContent="space-between" 
             position="fixed" 
             px={{ base:"15px", md:"30px", lg:90}} 
@@ -24,11 +23,11 @@ const TopNavigation = () => {
             zIndex={10000}
         >
             <Text cursor="pointer" p={2}> <Link href="/" passHref={true}><Image src="/sidebrief.png" width={100} h={6} alt="sidebrief" /></Link> </Text>
-            <Flex alignItems="center" display={{ base:"none", md:"none", lg:"flex"}} fontSize={14} fontWeight={500} h="100%" justifyContent="space-between" px={4}>
-                <Link href="/blogs" passHref={true}><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Blog</Text></Link>
-                <Link href="/about" passHref={true}><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Contact</Text></Link>
-                <Link href="#" passHref={true}><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Register</Text></Link>
-                <Link href="#" passHref={true}><Text color="gray.100" cursor="pointer" fontSize={14} fontWeight={700} m={2} mx={4}>Login</Text></Link>
+            <Flex alignItems="center" color="gray.600" display={{ base:"none", md:"none", lg:"flex"}} fontFamily="poppins" fontSize={16} fontWeight={500} h="100%" justifyContent="space-between" px={4}>
+                <Link href="/blogs" passHref={true}><Text cursor="pointer" m={2} mx={4}>Blog</Text></Link>
+                <Link href="/about" passHref={true}><Text cursor="pointer" m={2} mx={4}>Contact</Text></Link>
+                <Link href="#" passHref={true}><Text cursor="pointer" m={2} mx={4}>Register</Text></Link>
+                <Link href="#" passHref={true}><Text cursor="pointer" m={2} mx={4}>Login</Text></Link>
             </Flex>
 
             <Flex alignItems="center" display={{ base:"flex", md:"flex", lg:"none"}} fontWeight={500} h="100%" justifyContent="space-between" px={4}>
