@@ -48,6 +48,16 @@ a {
   background-image: linear-gradient(120deg, #66a6ff 0%, #89f7fe 100%) !important;
 }
 
+.title-animate {
+  transition: background .5s !important;
+}
+
+.title-animate:hover {
+  background: -webkit-linear-gradient(#66a6ff, #89f7fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 /* Slider */
 .embla {
