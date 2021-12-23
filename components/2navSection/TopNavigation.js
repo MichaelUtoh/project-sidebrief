@@ -23,7 +23,7 @@ const TopNavigation = () => {
             zIndex={10000}
         >
             <Text cursor="pointer" p={2}> <Link href="/" passHref={true}><Image src="/sidebrief.png" width={100} h={6} alt="sidebrief" /></Link> </Text>
-            <Flex alignItems="center" color="gray.600" display={{ base:"none", md:"none", lg:"flex"}} fontFamily="poppins" fontSize={16} fontWeight={500} h="100%" justifyContent="space-between" px={4}>
+            <Flex alignItems="center" color="#5a5a5a" display={{ base:"none", md:"none", lg:"flex"}} fontFamily="poppins" fontSize={16} fontWeight={300} h="100%" justifyContent="space-between" px={4}>
                 <Link href="/blogs" passHref={true}><Text cursor="pointer" m={2} mx={4}>Blog</Text></Link>
                 <Link href="/about" passHref={true}><Text cursor="pointer" m={2} mx={4}>Contact</Text></Link>
                 <Link href="#" passHref={true}><Text cursor="pointer" m={2} mx={4}>Register</Text></Link>

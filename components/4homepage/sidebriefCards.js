@@ -6,7 +6,7 @@ const CardsWrapper = () => {
     return (
         <>
             <Flex flexDirection="column" alignItems="center" px={{ base:"15px", md:"30px", lg:90}}>
-                <Text fontSize={{ base:22 }} fontWeight={700} textAlign={{ baseline:"center", lg:"center"}}>Why businesses love Sidebrief</Text>
+                <Text color="#5a5a5a" fontFamily="cutive" fontSize={{ base:22 }} fontWeight={700} textAlign={{ baseline:"center", lg:"center"}}>Why businesses love Sidebrief</Text>
                 <Divider bg="cyan.400" h={1} mt={2} w={10} />
 
                 {/* Why Customers love Sidebrief Cards */}
@@ -42,8 +42,8 @@ export const Card = ({ image_url, title, description }) => {
                 w={{ base:"full", md:250 }}
             >
                 <Image src={image_url} w={6} />
-                <Text fontSize={{ base:16, md:20 }} fontWeight={700} pt={2} textAlign="center">{title}</Text>
-                <Text color="gray.500" fontSize={{base:12, md:14 }} textAlign="center" pt={3}>{description}</Text>
+                <Text color="#5a5a5a" fontFamily="cutive" fontSize={{ base:16, md:20 }} fontWeight={700} pt={2} textAlign="center">{title}</Text>
+                <Text color="#5a5a5a" fontFamily="poppins" fontSize={{base:12, md:14 }} textAlign="center" pt={3}>{description}</Text>
             </Flex>
         </>
     )
