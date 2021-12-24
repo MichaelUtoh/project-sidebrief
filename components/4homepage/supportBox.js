@@ -11,7 +11,8 @@ const SupportComponent = () => {
                     <Flex flexDirection="column" justifyContent="space-between" m={4}>
                         <Flex flexDirection="column">
                             <Text color="#5a5a5a" fontFamily="cutive" fontSize={{ base:14, md:24, lg:30 }} fontWeight={700}>We&lsquo;re here to help.</Text>
-                            <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }}>Our lines are availaible all week round.</Text>
+                            <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={200}>Our lines are availaible all week round.</Text>
+                            <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={500}>hello@sidebrief.com</Text>
                         </Flex>
 
                         <Flex>

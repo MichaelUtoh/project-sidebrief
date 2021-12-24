@@ -17,9 +17,9 @@ const DataPolicy = () => {
                 w={{ base:"100%" }}
             >
                 <Image src="/illustrations/privacy.svg" my={2} w={150} />
-                <Flex alignItems="center" bg="gray.50" flexDirection="column" py={4} w="full">
-                    <Text color="gray.700" fontWeight={700}>Data Policy</Text>
-                    <Text color="gray.400" fontSize={14} mt={0}>How we track and use cookies.</Text>
+                <Flex alignItems="center" bg="#f8f8f8" flexDirection="column" py={4} w="full">
+                    <Text color="#5a5a5a" fontFamily="cutive" fontWeight={700}>Data Policy</Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={14} fontWeight={300} mt={0}>How we track and use cookies.</Text>
                 </Flex>
 
                 <Flex flexDirection="column" p={{ base:15, md:50 }} w="100%">
@@ -85,17 +85,17 @@ export const AccordionBox = ({ title, altText, textbox1, textbox2, textbox3, tex
         <>
             <AccordionItem>
                 <AccordionButton>
-                    <Text color="gray.700" fontWeight={700}> {title ? title : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="cutive" fontWeight={700}> {title ? title : ""} </Text>
                 </AccordionButton>
                 <AccordionPanel pb={4}>
-                    <Text color="gray.700" fontSize={{ base:12, md:14 }} mb={2} fontWeight={500}> {altText ? altText : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {textbox1 ? textbox1 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {textbox2 ? textbox2 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {textbox3 ? textbox3 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {textbox4 ? textbox4 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {textbox5 ? textbox5 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {textbox6 ? textbox6 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {textbox7 ? textbox7 : ""} </Text>
+                    <Text color="gray.700" fontFamily="cutive" fontSize={{ base:12, md:14 }} mb={2} fontWeight={500}> {altText ? altText : ""} </Text>
+                    <Text color="gray" fontFamily="poppins" fontSize={{ base:12, md:14 }} mb={2} fontWeight={300}> {textbox1 ? textbox1 : ""} </Text>
+                    <Text color="gray" fontFamily="poppins" fontSize={{ base:12, md:14 }} mb={2} fontWeight={300}> {textbox2 ? textbox2 : ""} </Text>
+                    <Text color="gray" fontFamily="poppins" fontSize={{ base:12, md:14 }} mb={2} fontWeight={300}> {textbox3 ? textbox3 : ""} </Text>
+                    <Text color="gray" fontFamily="poppins" fontSize={{ base:12, md:14 }} mb={2} fontWeight={300}> {textbox4 ? textbox4 : ""} </Text>
+                    <Text color="gray" fontFamily="poppins" fontSize={{ base:12, md:14 }} mb={2} fontWeight={300}> {textbox5 ? textbox5 : ""} </Text>
+                    <Text color="gray" fontFamily="poppins" fontSize={{ base:12, md:14 }} mb={2} fontWeight={300}> {textbox6 ? textbox6 : ""} </Text>
+                    <Text color="gray" fontFamily="poppins" fontSize={{ base:12, md:14 }} mb={2} fontWeight={300}> {textbox7 ? textbox7 : ""} </Text>
                 </AccordionPanel>
             </AccordionItem>
         </>

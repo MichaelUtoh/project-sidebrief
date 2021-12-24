@@ -20,31 +20,31 @@ const StepGuide = () => {
 
                 {/* Section 1 */}
                 <Flex>
-                    <Flex flexDirection="column" w={{ base:"100%", md:"50%" }}>
-                        <Flex cursor="pointer" flexDirection={{ base:"column", md:"row" }} justifyContent={{ base:"flex-start" }} mb={14} onClick={() => {handleBox1()}}>
-                            <Flex bg="none" borderLeft="4px" borderLeftColor="cyan.300" flexDirection="column" justifyContent="center" h={{ base:"100%" }} mx={{ base:2, md:4 }} px={{ base:6 }} py={2} w={{ base:"100%", md:400 }}>
-                                <Text className="title-animate" color="#5a5a5a" fontFamily="cutive" fontSize={{ base:20, md:24, lg:30 }} fontWeight={700}>Formation.</Text>
-                                <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:16, md:20 }} fontWeight={200}>Form company</Text>
+                    <Flex flexDirection="column" w={{ base:"100%", md:"40%" }}>
+                        <Flex cursor="pointer" flexDirection={{ base:"column", md:"row" }} justifyContent={{ base:"flex-start" }} mb={6} onClick={() => {handleBox1()}}>
+                            <Flex bg="none" borderLeft="4px" borderLeftColor="#f8f8f8" flexDirection="column" justifyContent="center" h={{ base:"100%" }} mx={{ base:2, md:4 }} px={{ base:6 }} py={2} w={{ base:"100%", md:400 }}>
+                                <Text className={ formation ? "title-animate" : ""} color="#5a5a5a" fontFamily="cutive" fontSize={{ base:20, md:24, lg:26 }} fontWeight={700}>Formation.</Text>
+                                <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={200}>Form company</Text>
                                 <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={400} mt={2}>
                                     Register a new profit or non-profit entity seamlessly, with support for all types of business vehicles.
                                 </Text>
                             </Flex>
                         </Flex>
 
-                        <Flex cursor="pointer" flexDirection={{ base:"column-reverse", md:"row" }} justifyContent={{ base:"flex-start" }} mb={14} onClick={() => {handleBox2()}}>
-                            <Flex bg="none" borderLeft="4px" borderLeftColor="cyan.400" flexDirection="column" justifyContent="center" h={{ base:"100%" }} mx={{ base:2, md:4 }} px={{ base:6 }} py={2} w={{ base:"100%", md:400 }}>
-                                <Text className="title-animate" color="#5a5a5a" fontFamily="cutive" fontSize={{ base:20, md:24, lg:30 }} fontWeight={700}>Launch.</Text>
-                                <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:16, md:20 }} fontWeight={200}>Access local support</Text>
+                        <Flex cursor="pointer" flexDirection={{ base:"column-reverse", md:"row" }} justifyContent={{ base:"flex-start" }} mb={6} onClick={() => {handleBox2()}}>
+                            <Flex bg="none" borderLeft="4px" borderLeftColor="#f8f8f8" flexDirection="column" justifyContent="center" h={{ base:"100%" }} mx={{ base:2, md:4 }} px={{ base:6 }} py={2} w={{ base:"100%", md:400 }}>
+                                <Text className={ launch ? "title-animate" : ""} color="#5a5a5a" fontFamily="cutive" fontSize={{ base:20, md:24, lg:26 }} fontWeight={700}>Launch.</Text>
+                                <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={200}>Access local support</Text>
                                 <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={400} mt={2}>
                                     Get started with tax registration, bank account set-up, IP protection and local support on-demand.
                                 </Text>
                             </Flex>
                         </Flex>
 
-                        <Flex cursor="pointer" flexDirection={{ base:"column", md:"row" }} justifyContent={{ base:"flex-start" }} mb={14} onClick={() => {handleBox3()}}>
-                            <Flex bg="none" borderLeft="4px" borderLeftColor="cyan.700" flexDirection="column" justifyContent="center" h={{ base:"100%" }} mx={{ base:2, md:4 }} px={{ base:6 }} py={2} w={{ base:"100%", md:400 }}>
-                                <Text className="title-animate" color="#5a5a5a" fontFamily="cutive" fontSize={{ base:20, md:24, lg:30 }} fontWeight={700}>Compliance.</Text>
-                                <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:16, md:20 }} fontWeight={200}>Get business licenses</Text>
+                        <Flex cursor="pointer" flexDirection={{ base:"column", md:"row" }} justifyContent={{ base:"flex-start" }} mb={6} onClick={() => {handleBox3()}}>
+                            <Flex bg="none" borderLeft="4px" borderLeftColor="#f8f8f8" flexDirection="column" justifyContent="center" h={{ base:"100%" }} mx={{ base:2, md:4 }} px={{ base:6 }} py={2} w={{ base:"100%", md:400 }}>
+                                <Text className={ compliance ? "title-animate" : ""} color="#5a5a5a" fontFamily="cutive" fontSize={{ base:20, md:24, lg:26 }} fontWeight={700}>Compliance.</Text>
+                                <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={200}>Get business licenses</Text>
                                 <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={400} mt={2}>
                                     Obtain business licenses and approvals required start business locally in any market.
                                 </Text>
@@ -54,7 +54,7 @@ const StepGuide = () => {
 
                     <Flex alignItems="center" display={{ base:"none", md:"flex" }} flexDirection="column" justifyContent="center" p={4} w="50%">
                         {formation ? <Image src="56420-cubes.gif" /> : ""}
-                        {launch ? <Image src="46433-rocket-launch.gif" w="50%" /> : ""}
+                        {launch ? <Image src="46433-rocket-launch.gif" w="80%" /> : ""}
                         {compliance ? <Image src="30266-documents.gif" /> : ""}
                     </Flex>
                 </Flex>

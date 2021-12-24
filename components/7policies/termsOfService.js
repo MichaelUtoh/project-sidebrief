@@ -18,8 +18,8 @@ const TermsOfService = () => {
             >
                 <Image src="/illustrations/privacy.svg" my={2} w={150} />
                 <Flex alignItems="center" bg="gray.50" flexDirection="column" py={4} w="full">
-                    <Text color="gray.700" fontWeight={700}>Terms & Conditions</Text>
-                    <Text color="gray.400" fontSize={14} mt={0}>Terms and conditions of services we provide.</Text>
+                    <Text color="#5a5a5a" fontFamily="cutive" fontWeight={700}>Terms & Conditions</Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={14} fontWeight={300} mt={0}>Terms and conditions of services we provide.</Text>
                 </Flex>
 
                 <Flex flexDirection="column" p={{ base:15, md:50 }} w="100%">
@@ -431,23 +431,23 @@ export const AccordionBox = ({ ...props }) => {
         <>
             <AccordionItem>
                 <AccordionButton>
-                    <Text color="gray.700" fontWeight={700}> {props.title ? props.title : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="cutive" fontWeight={700}> {props.title ? props.title : ""} </Text>
                 </AccordionButton>
                 <AccordionPanel pb={4}>
-                    <Text color="gray.700" fontSize={{ base:12, md:14 }} mb={2} fontWeight={500}> {props.altText ? props.altText : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox1 ? props.textbox1 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox2 ? props.textbox2 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox3 ? props.textbox3 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox4 ? props.textbox4 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox5 ? props.textbox5 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox6 ? props.textbox6 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox7 ? props.textbox7 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox8 ? props.textbox8 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox9 ? props.textbox9 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox10 ? props.textbox10 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox11 ? props.textbox11 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox12 ? props.textbox12 : ""} </Text>
-                    <Text color="gray" fontSize={{ base:12, md:14 }} mb={2}> {props.textbox13 ? props.textbox13 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2} fontWeight={500}> {props.altText ? props.altText : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox1 ? props.textbox1 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox2 ? props.textbox2 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox3 ? props.textbox3 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox4 ? props.textbox4 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox5 ? props.textbox5 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox6 ? props.textbox6 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox7 ? props.textbox7 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox8 ? props.textbox8 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox9 ? props.textbox9 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox10 ? props.textbox10 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox11 ? props.textbox11 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox12 ? props.textbox12 : ""} </Text>
+                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} fontWeight="300" mb={2}> {props.textbox13 ? props.textbox13 : ""} </Text>
                 </AccordionPanel>
             </AccordionItem>
         </>
@@ -457,7 +457,7 @@ export const AccordionBox = ({ ...props }) => {
 export const ListBox = ({ text }) => {
     return (
         <>
-            <Text color="gray" fontSize={{ base:12, md:14 }} my={{ base:2, md:4 }} w={{ base:"90%", md:"70%" }}>
+            <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:12, md:14 }} my={{ base:2, md:4 }} w={{ base:"90%", md:"70%" }}>
                 <ListIcon color="cyan.600" />
                 {text}
             </Text>

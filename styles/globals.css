@@ -29,11 +29,16 @@ a {
 }
 
 .link-animate {
+  border-radius: 10px;
   transition: color 0.5s;
 }
 
 .link-animate:hover {
-  color: cyan !important;
+  color: #ff0844 !important;
+}
+
+.link-wrap {
+  background: black !important;
 }
 
 .btn-hero {
@@ -45,14 +50,12 @@ a {
 }
 
 .btn-gradient {
-  background-image: linear-gradient(120deg, #66a6ff 0%, #89f7fe 100%) !important;
+  background-image: linear-gradient(120deg, #ffb199 0%, #ff0844 100%) !important;
+  color: #fff;
+  font-weight: 500;
 }
 
 .title-animate {
-  transition: background .5s !important;
-}
-
-.title-animate:hover {
   background: -webkit-linear-gradient(#66a6ff, #89f7fe);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

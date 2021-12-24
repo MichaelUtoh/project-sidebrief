@@ -24,10 +24,10 @@ const TopNavigation = () => {
         >
             <Text cursor="pointer" p={2}> <Link href="/" passHref={true}><Image src="/sidebrief.png" width={100} h={6} alt="sidebrief" /></Link> </Text>
             <Flex alignItems="center" color="#5a5a5a" display={{ base:"none", md:"none", lg:"flex"}} fontFamily="poppins" fontSize={16} fontWeight={300} h="100%" justifyContent="space-between" px={4}>
-                <Link href="/blogs" passHref={true}><Text cursor="pointer" m={2} mx={4}>Blog</Text></Link>
-                <Link href="/about" passHref={true}><Text cursor="pointer" m={2} mx={4}>Contact</Text></Link>
-                <Link href="#" passHref={true}><Text cursor="pointer" m={2} mx={4}>Register</Text></Link>
-                <Link href="#" passHref={true}><Text cursor="pointer" m={2} mx={4}>Login</Text></Link>
+                <Link className="link-wrap" href="/blogs" passHref={true}><Text className="link-animate" cursor="pointer" m={2} mx={4}>Blog</Text></Link>
+                <Link className="link-wrap" href="/about" passHref={true}><Text className="link-animate" cursor="pointer" m={2} mx={4}>Contact</Text></Link>
+                <Link className="link-wrap" href="#" passHref={true}><Text className="link-animate" cursor="pointer" m={2} mx={4}>Register</Text></Link>
+                <Link className="link-wrap" href="#" passHref={true}><Text className="link-animate" cursor="pointer" m={2} mx={4}>Login</Text></Link>
             </Flex>
 
             <Flex alignItems="center" display={{ base:"flex", md:"flex", lg:"none"}} fontWeight={500} h="100%" justifyContent="space-between" px={4}>

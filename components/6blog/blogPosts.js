@@ -6,10 +6,10 @@ import { Card, CardStyle2 } from '../5utils/cardUtil'
 const BlogPosts = () => {
     return (
         <>
-            <Flex flexDirection={{ base:"column" }} alignItems={{ base:"center" }} px={{ base:"15px", md:"30px", lg:90 }} py={{ base:100 }} w="100%">
-                <Text textAlign="center" fontSize={{ base:16, md:18, lg:24 }} fontWeight={{ base:700 }}>Articles for founders</Text>
+            <Flex flexDirection={{ base:"column" }} alignItems={{ base:"center" }} px={{ base:"15px", md:"30px", lg:90 }} py={{ base:100, md:"150px" }} w="100%">
+                <Text color="#5a5a5a" fontFamily="cutive" fontSize={{ base:16, md:18, lg:24 }} fontWeight={{ base:700 }} textAlign="center">Articles for founders</Text>
                 <Flex alignItems="center" justifyContent="center">
-                    <Text color="gray" mr={2} textAlign="center">Articles on doing business and compliance across the world collated with</Text>
+                    <Text color="gray" fontFamily="poppins" mr={2} textAlign="center">Articles on doing business and compliance across the world collated with</Text>
                     <FaHeart color="red" />
                 </Flex>
                 
@@ -25,7 +25,7 @@ const BlogPosts = () => {
                     <CardStyle2
                         image_url=""
                         date="25-12-2021"
-                        title="Registering A Company in Nigeria ; A practical Step by Step guide"
+                        title="Registering A Company in Nigeria: A practical Step by Step guide"
                         snippet="The Corporate Affairs Commission (CAC) in a bid to ease doing business in Nigeria has made the process 
                                 of registering a company in Nigeria quite seamless."
                     />
