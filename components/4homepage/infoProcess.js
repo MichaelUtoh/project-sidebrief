@@ -24,13 +24,13 @@ export const TypedComponent = () => {
     React.useEffect(() => {
         const options = {
             strings: [
-                'Sign-up or login to your Sidebrief dashboard.',
-                'Provide formation info and documents.',
-                'Pay and wait for formation of company.'
+                '1. Sign-up or login to your Sidebrief dashboard.',
+                '2. Provide formation info and documents.',
+                '3. Pay and wait for formation of company.'
             ],
             loop: true,
             typeSpeed: 50,
-            backSpeed: 50,
+            backSpeed: 10,
         }
 
         typed.current = new Typed(el.current, options);
