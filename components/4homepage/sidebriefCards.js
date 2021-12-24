@@ -41,7 +41,7 @@ export const Card = ({ image_url, title, description }) => {
                 py={{ base:4, md:8 }}
                 w={{ base:"full", md:250 }}
             >
-                <Image src={image_url} w={6} />
+                <Image alt="" src={image_url} w={6} />
                 <Text color="#5a5a5a" fontFamily="cutive" fontSize={{ base:16, md:20 }} fontWeight={700} pt={2} textAlign="center">{title}</Text>
                 <Text color="#5a5a5a" fontFamily="poppins" fontSize={{base:12, md:14 }} textAlign="center" pt={3}>{description}</Text>
             </Flex>

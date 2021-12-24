@@ -23,11 +23,11 @@ const DataPolicyPage = () => {
                     pt={{ base:200 }}
                     w={{ base:"15%"}}
                 >
-                    <Link href="/policies/data"><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Data Policy</Text></Link>
-                    <Link href="/policies/privacy"><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Privacy Policy</Text></Link>
-                    <Link href="/policies/payment"><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Payment Policy</Text></Link>
-                    <Link href="/policies/disclaimers"><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Disclaimers</Text></Link>
-                    <Link href="/policies/terms"><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Terms of Service</Text></Link>
+                    <Link href="/policies/data" passHref={true}><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Data Policy</Text></Link>
+                    <Link href="/policies/privacy" passHref={true}><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Privacy Policy</Text></Link>
+                    <Link href="/policies/payment" passHref={true}><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Payment Policy</Text></Link>
+                    <Link href="/policies/disclaimers" passHref={true}><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Disclaimers</Text></Link>
+                    <Link href="/policies/terms" passHref={true}><Text color="gray.600" cursor="pointer" fontWeight={700} mb={3}>Terms of Service</Text></Link>
                 </Flex>
 
                 <Flex w={{ base:"100%", md:"85%" }}>

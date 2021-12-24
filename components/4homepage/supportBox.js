@@ -20,7 +20,7 @@ const SupportComponent = () => {
                         </Flex>
 
                     </Flex>
-                    {/* <Image src="/63820.gif" w="250px" /> */}
+                    {/* <Image alt="" src="/63820.gif" w="250px" /> */}
 
                 </Flex>
             </Box>

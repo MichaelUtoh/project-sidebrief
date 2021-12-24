@@ -13,7 +13,7 @@ const FooterComponent = () => {
                 {/* Box 1 */}
                 <Flex flexDirection="column" justifyContent="space-between" mx={4} p={2} w={{ base:"100%", md:"inherit" }}>
                     <Box>
-                        <Link href="/"><Image cursor="pointer" src="/sidebrief.png" w="100px" /></Link>
+                        <Link href="/" passHref={true}><Image alt="" cursor="pointer" src="/sidebrief.png" w="100px" /></Link>
                         <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:10, md:12 }} mt={{ base:3 }}>Build without borders.</Text>
                     </Box>
 

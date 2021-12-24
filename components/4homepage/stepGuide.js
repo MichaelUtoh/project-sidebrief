@@ -53,9 +53,9 @@ const StepGuide = () => {
                     </Flex>
 
                     <Flex alignItems="center" display={{ base:"none", md:"flex" }} flexDirection="column" justifyContent="center" p={4} w="50%">
-                        {formation ? <Image src="56420-cubes.gif" /> : ""}
-                        {launch ? <Image src="46433-rocket-launch.gif" w="80%" /> : ""}
-                        {compliance ? <Image src="30266-documents.gif" /> : ""}
+                        {formation ? <Image alt="" src="56420-cubes.gif" /> : ""}
+                        {launch ? <Image alt="" src="46433-rocket-launch.gif" w="80%" /> : ""}
+                        {compliance ? <Image alt="" src="30266-documents.gif" /> : ""}
                     </Flex>
                 </Flex>
 

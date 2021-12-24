@@ -48,7 +48,7 @@ const HeroComponent = () => {
 
                 {/* Animation */}
                 <Flex alignItems="center" justifyContent="center" mt={{ base:"100px", md:0 }} w={{ base:"80%" }}>
-                    <Image src="/82840-vps-servers.gif" w={{ base:"80%", md:"70%"}} />
+                    <Image alt="" src="/82840-vps-servers.gif" w={{ base:"80%", md:"70%"}} />
                 </Flex>
             </Flex>
         </>

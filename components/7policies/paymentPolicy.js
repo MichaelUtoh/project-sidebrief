@@ -16,7 +16,7 @@ const PaymentPolicy = () => {
                 py={{ base:100 }}
                 w={{ base:"100%" }}
             >
-                <Image src="/illustrations/privacy.svg" my={2} w={150} />
+                <Image alt="" src="/illustrations/privacy.svg" my={2} w={150} />
                 <Flex alignItems="center" bg="gray.50" flexDirection="column" py={4} w="full">
                     <Text color="#5a5a5a" fontFamily="cutive" fontWeight={700}>Payment Policy</Text>
                     <Text color="#5a5a5a" fontFamily="poppins" fontSize={14} fontWeight={300} mt={0}>How we process payments and refunds.</Text>

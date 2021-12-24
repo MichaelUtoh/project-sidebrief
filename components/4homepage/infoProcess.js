@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Flex } from '@chakra-ui/layout'
-import { Button, Image, Text } from '@chakra-ui/react'
+import { Text } from '@chakra-ui/react'
 import Typed from 'typed.js'
 
 const InfoComponent = () => {
