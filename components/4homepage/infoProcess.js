@@ -6,10 +6,10 @@ import Typed from 'typed.js'
 const InfoComponent = () => {
     return (
         <>
-            <Flex alignItems="center" bg="#5a5a5a" borderRadius={10} h={400} flexDirection="column" justifyContent="center" px={{ base:"15px", md:"30px", lg:90}} my={10} mx="auto" w="80%">
+            <Flex alignItems="center" bg="linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%)" borderRadius={10} h={400} flexDirection="column" justifyContent="center" px={{ base:"15px", md:"30px", lg:90}} my={10} mx="auto" w="80%">
                 {/* Welcome text */}
                 <Flex flexDirection="column" alignItems="start">
-                    <Text color="#fff" fontFamily="cutive" fontSize={{ base:"16px", lg:"18px" }} fontWeight={700} textAlign={{ base:"center" }}>The easiest way to start doing business in any market.</Text>
+                    <Text color="#5a5a5a" fontFamily="cutive" fontSize={{ base:"16px", lg:"24px" }} fontWeight={700} textAlign={{ base:"center" }}>The easiest way to start doing business in any market.</Text>
                     <TypedComponent />
                 </Flex>
             </Flex>
@@ -42,7 +42,7 @@ export const TypedComponent = () => {
     return (
         <div>
             <div className="type-wrap">
-                <Text color="#f8f8f8" fontFamily="poppins" fontWeight={300} style={{ whiteSpace: 'pre' }} ref={el} />
+                <Text color="#5a5a5a" fontFamily="poppins" fontWeight={300} style={{ whiteSpace: 'pre' }} ref={el} />
             </div>
         </div>
     )
