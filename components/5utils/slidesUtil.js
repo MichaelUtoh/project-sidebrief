@@ -1,12 +1,14 @@
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import { Image } from '@chakra-ui/react'
+import { Center, Image } from '@chakra-ui/react'
 
 
 export const SliderComponent = () => {
     const [emblaRef, emblaApi] = useEmblaCarousel({ 
+        align: "center",
         loop: true,
+        skipSnaps: true,
         slidesToScroll: 1,
     }, [Autoplay()])
   
