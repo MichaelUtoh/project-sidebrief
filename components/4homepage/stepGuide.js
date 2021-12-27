@@ -16,7 +16,7 @@ const StepGuide = () => {
         <>
             <Flex id="info" bg="#fff" flexDirection="column" justifyContent="space-between" my={{ base:5 }} px={{ base:"15px", md:"30px", lg:90}} py={{ base:5, md:"70px" }}>
                 <Text color="#5a5a5a" fontFamily="cutive" mt={5} fontSize={{ base:"xl", md:"4xl"}} textAlign="start">Formation Simplified</Text>
-                <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16, lg:18 }} fontWeight={500} mb={10}>Form company and get started in new markets.</Text>
+                <Text color="#757575" fontFamily="poppins" fontSize={{ base:14, md:16, lg:18 }} fontWeight={500} mb={10}>Form company and get started in new markets.</Text>
 
                 {/* Section 1 */}
                 <Flex>

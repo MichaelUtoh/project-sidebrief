@@ -5,7 +5,7 @@ import { Divider, Flex, Text } from '@chakra-ui/layout'
 const CardsWrapper = () => {
     return (
         <>
-            <Flex flexDirection="column" alignItems="center" px={{ base:"15px", md:"30px", lg:90}}>
+            <Flex flexDirection="column" alignItems="center" mt={10} px={{ base:"15px", md:"30px", lg:90}}>
                 <Text color="#5a5a5a" fontFamily="cutive" fontSize={{ base:22 }} fontWeight={700} textAlign={{ baseline:"center", lg:"center"}}>Why businesses love Sidebrief</Text>
                 <Divider bg="cyan.400" h={1} mt={2} w={10} />
 

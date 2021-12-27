@@ -26,7 +26,7 @@ const HeroComponent = () => {
                         <FadeInBox text="Form and manage your company from anywhere." />
                     </Text>
 
-                    <Text color="#5a5a5a" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={300} m={2} w={{ base:"90%", lg:"80%" }}>
+                    <Text color="#757575" fontFamily="poppins" fontSize={{ base:14, md:16 }} fontWeight={300} m={2} w={{ base:"90%", lg:"80%" }}>
                         <FadeInBox text="Sidebrief makes starting a new business seamless by removing lengthy paperwork, 
                         legal jargons, and hidden fees. Form companies across markets, with free business 
                         bank account, tax registration, business compliance, and more." />                    
